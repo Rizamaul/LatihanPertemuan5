@@ -6,7 +6,6 @@ body {
   color: #333;
 }
 
-/* HEADER DAN NAV */
 header {
   background-color: #1e88e5;
   color: white;
@@ -43,7 +42,6 @@ nav a:hover {
   color: #ffeb3b;
 }
 
-/* === MAIN SECTION === */
 main {
   display: flex;
   flex-direction: column;
@@ -52,7 +50,6 @@ main {
   gap: 2rem;
 }
 
-/* === ABOUT SECTION === */
 section#about {
   background-color: white;
   border-radius: 10px;
@@ -93,7 +90,6 @@ article p {
   text-align: justify;
 }
 
-/* === PROJECT SECTION === */
 #projects {
   max-width: 1000px;
   text-align: center;
@@ -127,7 +123,6 @@ article p {
   margin-top: 0;
 }
 
-/* === ASIDE (KONTAK) === */
 aside {
   background-color: #ffffff;
   border-radius: 10px;
@@ -156,7 +151,6 @@ aside li::before {
   color: #1e88e5;
 }
 
-/* === FOOTER === */
 footer {
   background-color: #1e88e5;
   color: rgb(255, 255, 255);
@@ -165,7 +159,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* === RESPONSIVE === */
 @media (max-width: 768px) {
   section#about {
     flex-direction: column;
